@@ -62,3 +62,18 @@
 
 </body>
 </html> 
+
+Post::create([
+    'title' => 'Judul Ketiga',
+    'category_id' => '3',
+    'slug' => 'judul-ketiga',
+    'excerpt' => 'Lorem ipsum ketiga, sit amet consectetur adipisicing elit. Magni, iusto obcaecati quos sunt ullam neque atque suscipit,',
+    'body' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, iusto obcaecati quos sunt ullam neque atque suscipit, laborum ab eveniet quisquam et officia, molestiae dolores nam mollitia. Exercitationem omnis commodi assumenda optio doloremque dignissimos nesciunt, modi ut veritatis quam perspiciatis deleniti temporibus blanditiis eos ab ea. Explicabo debitis minima expedita consequatur rerum dicta, cum aliquid aut facilis voluptate cupiditate distinctio dolores corrupti optio vel adipisci? Facere maxime at accusantium deserunt sapiente necessitatibus enim corporis ea minus porro blanditiis, vitae distinctio quas unde voluptas. Fuga eveniet mollitia velit esse reprehenderit, natus culpa deserunt aliquid sint, iusto quas laudantium hic accusamus totam?'
+])
+
+Category::create([
+    'name' => 'Personal',
+    'slug' => 'personal' 
+])
+
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, iusto obcaecati quos sunt ullam neque atque suscipit, laborum ab eveniet quisquam et officia, molestiae dolores nam mollitia. Exercitationem omnis commodi assumenda optio doloremque dignissimos nesciunt, modi ut veritatis quam perspiciatis deleniti temporibus blanditiis eos ab ea. Explicabo debitis minima expedita consequatur rerum dicta, cum aliquid aut facilis voluptate cupiditate distinctio dolores corrupti optio vel adipisci? Facere maxime at accusantium deserunt sapiente necessitatibus enim corporis ea minus porro blanditiis, vitae distinctio quas unde voluptas. Fuga eveniet mollitia velit esse reprehenderit, natus culpa deserunt aliquid sint, iusto quas laudantium hic accusamus totam?

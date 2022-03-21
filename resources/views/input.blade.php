@@ -54,6 +54,7 @@
                                     <input class="form-control" type="text" name="gaji" value="{{ old('gaji') }}">
                                 </div>
                                 <div class="form-group">
+                                    <label for="usia">Foto Profil</label>
                                     <input type="file" name="image" class="form-control" >
                                 </div>
                                 <div class="form-group">
